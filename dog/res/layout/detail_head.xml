@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6eea"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/restImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitEnd" />
+
+    <ImageView
+        android:id="@+id/d0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/restImage"
+        android:background="@drawable/title_shadow" />
+
+    <TextView
+        android:id="@+id/restIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d0"
+        android:layout_margin="5dp" />
+
+    <ImageView
+        android:id="@+id/d1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/restIntro"
+        android:background="@drawable/title_shadow" />
+
+    <TextView
+        android:id="@+id/restAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d1"
+        android:layout_margin="5dp" />
+
+    <ImageView
+        android:id="@+id/d2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/restAddress"
+        android:background="@drawable/title_shadow" />
+
+    <TextView
+        android:id="@+id/restTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d2"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/restName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="容园食堂"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/restRecom"
+        style="@style/placeRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/restName"
+        android:layout_margin="5dp"
+        android:isIndicator="true" />
+
+    <Button
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/restIntro"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/tool_favorite_btn"
+        android:onClick="mark" />
+
+</RelativeLayout>

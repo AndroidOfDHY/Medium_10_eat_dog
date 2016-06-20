@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+
+    <ShareSDK AppKey="53cb3469fed" />
+
+    <SinaWeibo
+        AppKey="2322421053"
+        AppSecret="de4786a19cda288363e43a1cb3cadd79"
+        Id="1"
+        RedirectUrl="http://118.193.49.95/dog"
+        SortId="1" />
+
+    <Renren
+        ApiKey="12a97804925243ae9a7a7a0a05ecab31"
+        AppId="238380"
+        Id="2"
+        SecretKey="340b7e5ca3f84cf7aed8a43ea3ea7410"
+        SortId="2" />
+
+    <TencentWeibo
+        AppKey="801385946"
+        AppSecret="d03b32a26bcd866961243d1f96c3f263"
+        Id="3"
+        RedirectUri="http://118.193.49.95/dog"
+        SortId="3" />
+
+    <QZone
+        AppId="100484312"
+        AppKey="42d35025cce181f1ab0602bca0dc93f7"
+        Id="4"
+        SortId="4" />
+
+</DevInfor>
